@@ -16,5 +16,4 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
       
-- name: Cypress.io
-  uses: cypress-io/github-action@v2.9.7
+
