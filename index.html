@@ -26,7 +26,11 @@
     <figure class="hero" title="People at a desk looking at papers"></figure>
     <main>
         <section class="content">
-            <article class="search-engine-optimization" tabindex="0">
+            <!-- 
+                Id is used for navigation, classes for styles. 
+                No styles on IDs please to maintain separation of concerns 
+            -->
+            <article id="search-engine-optimization" class="search-engine-optimization" tabindex="0">
                 <img alt="Notebook with SEO diagram" src="./assets/images/search-engine-optimization.jpg" class="float-left" />
                 <h2>Search Engine Optimization</h2>
                 <p>
@@ -72,7 +76,7 @@
             </article>
         </section>
     </main>
-    <footer>
+    <footer tabindex="0">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
