@@ -4,8 +4,22 @@
   "description": "horiseon landing",
   "main": "index.html",
   "scripts": {
-    "test": "e2e-test",
-    "cypress:open": "cypress open"
+    "cypress:version": "cypress version",
+    "cypress:verify": "cypress verify",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:run:record": "cypress run --record",
+    "cypress:run:chrome": "cypress run --browser chrome",
+    "cypress:run:headed": "cypress run --headed",
+    "dev": "run-p --race start:ci cypress:open",
+    "start": "http-server -p 8888 -c-1",
+    "start:ci": "http-server -p 8888 -c-1 --silent",
+    "test": "npm run start & cypress run",
+    "test:ci": "run-p --race start:ci cypress:run",
+    "test:ci:record": "run-p --race start:ci cypress:run:record",
+    "test:ci:chrome": "run-p --race start:ci cypress:run:chrome",
+    "test:ci:headed": "run-p --race start:ci cypress:run:headed",
+    "e2e": "cypress run"
   },
   "repository": {
     "type": "git",

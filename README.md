@@ -13,7 +13,7 @@ Take the provided HTML & CSS and convert the page to semantic HTML while ensurin
 You can run the integration tests by running the following commands
 ```
 npm init
-npm run cypress:open
+npm run e2e
 ```
 ## Screenshot
 ![screenshot](assets/images/screenshot.jpg)

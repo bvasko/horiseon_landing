@@ -1,6 +1,6 @@
 describe('Landing Page Specs', () => {
   it('Does not contain a div', () => {
-    cy.visit('index.html');
+    cy.visit('/');
     cy.get('div').should('not.exist');
   });
   it('has image alt tags', () => {
