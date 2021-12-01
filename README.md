@@ -9,5 +9,11 @@ Take the provided HTML & CSS and convert the page to semantic HTML while ensurin
 - title tags added where appropriate
 - add tabindex=0 to enable page navigation with the keyboard
 
+### Run Tests
+You can run the integration tests by running the following commands
+```
+npm init
+npm run cypress:open
+```
 ## Screenshot
 ![screenshot](assets/images/screenshot.jpg)
