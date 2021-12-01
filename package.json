@@ -1,0 +1,23 @@
+{
+  "name": "horiseon",
+  "version": "1.0.0",
+  "description": "horiseon landing",
+  "main": "index.html",
+  "scripts": {
+    "test": "e2e-test",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bvasko/horiseon_landing.git"
+  },
+  "author": "B. Dipasquale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bvasko/horiseon_landing/issues"
+  },
+  "homepage": "https://github.com/bvasko/horiseon_landing#readme",
+  "devDependencies": {
+    "cypress": "^9.1.0"
+  }
+}
