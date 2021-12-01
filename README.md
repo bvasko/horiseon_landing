@@ -20,6 +20,7 @@ npm run e2e
 A video of the test run is captured and output to the cypress/videos directory
 
 Test results will output in the terminal 
+
 ![test results](assets/images/screenshot2.png)
 
 ### CI test run
