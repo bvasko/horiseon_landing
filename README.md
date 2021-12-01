@@ -11,7 +11,7 @@
 - add tabindex=0 to enable page navigation with the keyboard
 
 ### Run Integration Tests Locally
-Integration tests ensure that the code contains to meet the accessibility standards outlined in the Scope of Work document.
+Integration tests ensure that the code continues to meet the accessibility standards outlined in the Scope of Work document.
 You can run the integration tests by running the following commands
 ```
 npm init
