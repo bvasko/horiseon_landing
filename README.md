@@ -1,7 +1,8 @@
 # Horiseon Landing Page
 
 ## Scope of Work
-Take the provided HTML & CSS and convert the page to semantic HTML while ensuring the CSS properties are still properly applied
+ - Take the provided HTML & CSS and convert the page to semantic HTML while ensuring the CSS properties are still properly applied
+ - Ensure the page meets web accessibility standards
 
 ### Changes
 - all divs converted to the appropriate semantic html tag
