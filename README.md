@@ -16,13 +16,14 @@ You can run the integration tests by running the following commands
 npm init
 npm run e2e
 ```
+A vidoe of the test run is captured and output to the cypress/videos directory
 
 Test results will output in the terminal 
 ![test results](assets/images/screenshot2.png)
 
 ### CI test run
-The .github/workflows folder contains the github actions setup file
-Cypress integration tests will run everytime code is pushed or merged
+- The .github/workflows folder contains the github actions setup file
+- Cypress integration tests will run everytime code is pushed or merged
 ![test results](assets/images/screenshot3.png)
 ## Landing Page Screenshot
 ![screenshot](assets/images/screenshot.jpg)
